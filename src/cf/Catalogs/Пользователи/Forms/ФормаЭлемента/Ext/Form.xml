@@ -31,6 +31,12 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="EMail" id="11">
+			<DataPath>Объект.EMail</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="EMailКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="EMailРасширеннаяПодсказка" id="13"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
