@@ -16,6 +16,12 @@
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
+		<InputField name="МеждународныйКод" id="13">
+			<DataPath>Объект.МеждународныйКод</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МеждународныйКодКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="МеждународныйКодРасширеннаяПодсказка" id="15"/>
+		</InputField>
 		<InputField name="Наименование" id="4">
 			<DataPath>Объект.Description</DataPath>
 			<Title>
